@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html, .wrap {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2; }
+
+.wrap {
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  width: 100%;
+  height: 0.66rem;
+  background: #ffffff;
+  overflow: hidden; }
+  .header .logo {
+    width: 1.5rem;
+    height: 0.35rem;
+    margin-left: 0.23rem;
+    margin-top: 0.16rem;
+    float: left; }
+    .header .logo img {
+      display: block;
+      width: 100%;
+      height: 100%; }
+  .header .city {
+    float: left;
+    overflow: hidden; }
+    .header .city p {
+      font-size: 0.17rem;
+      line-height: 0.66rem;
+      margin-left: 0.22rem;
+      color: #666666;
+      float: left; }
+    .header .city img {
+      display: block;
+      float: left;
+      width: 0.17rem;
+      height: 0.09rem;
+      margin-top: 0.29rem;
+      margin-left: 0.05rem; }
+  .header .sousuo {
+    float: right;
+    margin-right: 0.18rem;
+    margin-top: 0.26rem; }
+    .header .sousuo a {
+      display: block; }
+      .header .sousuo a img {
+        display: block;
+        width: 0.27rem;
+        height: 0.18rem; }
+
+.content {
+  width: 100%;
+  flex: 1;
+  overflow: auto;
+  float: left; }
+
+.swiper-container {
+  width: 4.8rem;
+  height: 2.1rem; }
+  .swiper-container img {
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+.ry {
+  width: 100%;
+  height: 0.6rem;
+  background: #FFFFFF; }
+  .ry .ry-left {
+    float: left;
+    font-size: 0.19rem;
+    color: #46423f;
+    line-height: 0.6rem;
+    margin-left: 0.15rem; }
+  .ry .more {
+    float: right;
+    font-size: 0.18rem;
+    overflow: hidden; }
+    .ry .more a {
+      text-decoration: none;
+      float: left;
+      line-height: 0.6rem;
+      color: #46423f; }
+    .ry .more img {
+      display: block;
+      width: 0.07rem;
+      height: 0.11rem;
+      float: left;
+      margin-top: 0.25rem;
+      margin-right: 0.15rem;
+      margin-left: 0.05rem; }
+
+.box {
+  width: 100%;
+  height: 2.3rem;
+  background: #FFFFFF;
+  overflow: hidden; }
+  .box .swiper-container-q {
+    width: 100%;
+    font-size: 0.2rem; }
+    .box .swiper-container-q .swiper-slide {
+      width: 1.26rem; }
+      .box .swiper-container-q .swiper-slide img {
+        display: block;
+        width: 1.26rem;
+        height: 1.69rem; }
+      .box .swiper-container-q .swiper-slide p {
+        width: 0.92rem;
+        font-size: 0.18rem;
+        margin-left: 0.18rem;
+        text-align: center;
+        margin-top: 0.2rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+
+.tj {
+  width: 100%; }
+  .tj h2 {
+    display: block;
+    height: 0.62rem;
+    line-height: 0.62rem;
+    margin-top: 0.18rem;
+    background: #FFFFFF;
+    font-size: 0.2rem;
+    padding-left: 0.15rem;
+    color: #46423f;
+    box-sizing: border-box; }
+  .tj ul {
+    width: 100%;
+    background: #FFFFFF;
+    padding-left: 0.18rem;
+    box-sizing: border-box; }
+    .tj ul li .l {
+      width: 1.92rem;
+      height: 1.27rem;
+      float: left;
+      background: #f2f2f2; }
+      .tj ul li .l img {
+        width: 1.92rem;
+        height: 1.2rem;
+        display: block; }
+    .tj ul li .r {
+      float: left;
+      width: 2.35rem;
+      height: 1.27rem;
+      padding-left: 0.19rem;
+      box-sizing: border-box;
+      position: relative; }
+      .tj ul li .r .p1 {
+        width: 2.35rem;
+        font-size: 0.24rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin-top: 0.18rem; }
+      .tj ul li .r .p2 {
+        font-size: 0.14rem;
+        position: absolute;
+        top: 0.78rem;
+        color: #918f8d; }
+        .tj ul li .r .p2 span {
+          display: inline-block;
+          font-size: 0.14rem;
+          width: 0.35rem;
+          height: 0.21rem;
+          border: 0.02rem solid #2196f3;
+          text-align: center;
+          line-height: 0.21rem;
+          margin-left: 0.12rem;
+          color: #2196f3;
+          background: #FFFFFF; }
+
+.footer {
+  width: 100%;
+  height: 0.42rem;
+  background: #fff;
+  border-top: 1px solid #f5f5f5; }
+  .footer li {
+    width: 0.9rem;
+    float: left;
+    list-style: none; }
+    .footer li i {
+      width: 0.22rem;
+      height: 0.2rem;
+      display: block;
+      margin: 0 auto; }
+    .footer li .iconfont {
+      font-family: "iconfont" !important;
+      font-size: 0.22rem;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-stroke-width: 0.2px;
+      -moz-osx-font-smoothing: grayscale; }
+    .footer li p {
+      font-size: 0.12rem;
+      color: #46423f;
+      text-align: center;
+      margin-top: 0.05rem; }
+
+/*# sourceMappingURL=style.css.map */
